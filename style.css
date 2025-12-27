@@ -1,0 +1,152 @@
+
+/* Body */
+
+body {
+    font-family: Times, 'Times New Roman', serif, sans-serif;
+    background-image: url("/images/lux.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* Typography */
+
+h1{
+    font-size: 100px;
+    color: rgb(23, 23, 23);
+    font-weight: 100;
+}
+
+h2{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Layout */
+
+.container{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 420px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 2px #7e7e7e;
+    background-color: rgb(242, 242, 238);
+    padding: 25px;
+}
+
+/* Form */
+
+.data-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    gap: 10px
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgb(181, 178, 178);
+    padding: 5px;
+}
+
+/* Close button */
+
+.close-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.close-btn:hover, .close-btn:focus{
+    cursor: pointer;
+    color: #7e7e7e;
+}
+
+/* Submit button */
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#submit{
+    width: 314px;
+    height: 40px;
+    border: none;
+    background-color: #7e7e7e;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+#submit:hover, #submit:focus{
+    cursor: pointer;
+    background-color: #e7bc8e;
+    color: rgb(101, 101, 101);
+}
+
+/* Sound On Button */
+
+.sound-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.sound-btn img{
+    width: 50px;
+    height: 50px;
+}
+
+.sound-btn:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+/* the cursor light */
+
+body::before {
+  content: "";
+  position: fixed; /* important for full-page tracking */
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+
+  background: radial-gradient(
+    circle 270px at var(--x) var(--y),
+    rgba(255, 255, 255, 0.45),
+    rgba(255, 255, 255, 0.25) 40%,
+    rgba(255, 255, 255, 0.08) 60%,
+    transparent 60%
+  );
+
+  filter: blur(40px);
+  transition: background 0.05s linear;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buy tickets</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>LUX TOUR FREE TICKETS</h1>
+        </header>
+            <div class="container" id="container">
+               
+                <div class="close-btn-container" id="close-btn-container">
+                <button class="close-btn" id="close-btn">X</button>
+                </div>
+
+                <div class="inner-modal" id="inner-modal">
+                <h2>Join our waiting list</h2>
+                <p>Get news about your tickets on your inbox and don't miss out!</p>
+
+                    <form class="data-form" id="data-form">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" required>
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+                            <label for="profile-pic">Profile Picture</label>
+                            <input type="file" id="profile-pic" name="avatar" accept=".png, .jpg, .jpeg" required>
+                    </form>
+
+                    <div class="submit-btn" id="data-form">
+                        <button id="submit" type="submit">Submit</button>
+                    </div>
+
+                </div>
+            </div>
+        <audio id="bg-audio" src="/audio/sauvignon.mp3" loop></audio>
+        <button class="sound-btn" id="sound-btn">
+            <img src="/images/sound.png" alt="sound on button">
+        </button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
