@@ -1,4 +1,3 @@
-
 /* Body */
 
 body {
@@ -99,10 +98,9 @@ label{
 .submit-btn{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
 }
 
-#submit{
+.submit{
     width: 314px;
     height: 40px;
     border: none;
@@ -110,12 +108,29 @@ label{
     background-color: #7e7e7e;
     color: whitesmoke;
     font-weight: 600;
+    margin-top: 15px;
 }
 
-#submit:hover, #submit:focus{
+.submit:hover, .submit:focus{
     cursor: pointer;
     background-color: #e7bc8e;
     color: rgb(101, 101, 101);
+}
+
+/* Loading icon */
+
+.modal-loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.loading-icon{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
 }
 
 /* Sound On Button */
