@@ -8,7 +8,7 @@ This project includes interactive features like a **custom cursor light** and **
 
 ## 🎨 Features
 
-- **Responsive modal form**: Enter your full name, email, and upload a profile picture.
+- **Modal form**: Enter your full name, email, and upload a profile picture.
 - **Custom ticket generation**: Generates a ticket with your name and circular avatar.
 - **Animated loading sequence**: Fun messages before showing the ticket.
 - **Audio control**: Background music plays on first interaction, with a sound button for toggling.
@@ -49,6 +49,13 @@ project-root/
 5. Watch the loading sequence before your personalized ticket appears.
 6. Click the **sound button** to play background music.
 
+---
+
+## ⚙️ Future Improvements
+
+**Adding responsiveness:** the project is in need of responsiveness so it can work both on wider screens and mobile devices.
+**Printable Ticket:** a printable ticket function will be added in the future.
+**Unique Seat and Row:** using JS, I will add a function that allows the user to generate a unique seat and row that is going to be shown in the final ticket.
 
 ---
 
