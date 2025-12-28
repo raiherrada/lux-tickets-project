@@ -24,7 +24,7 @@ project-root/
 ├── index.html          # Main HTML page
 ├── style.css           # CSS styles (responsive)
 ├── script.js           # JavaScript for form, ticket, and interactions
-├── images/             # Images used (background, sound icon, placeholders)
+├── images/             # Images used (background, sound icon, etc)
 │   ├── lux.jpg
 │   ├── sound.png
 │   ├── loading.svg
@@ -36,7 +36,7 @@ project-root/
 
 ## 🚀 Live Server
 
-**Follow the link**:
+**Follow the link**: [LUX Ticket Generator](https://lux-tickets.netlify.app/)
 
 ---
 
