@@ -173,3 +173,134 @@ body::before {
   filter: blur(40px);
   transition: background 0.05s linear;
 }
+
+/* Ticket Container */
+
+.ticket {
+  display: flex;
+  height: 420px;
+  width: 320px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  font-family: "Arial", sans-serif;
+}
+
+/* Left & Right barcode sides */
+
+.ticket-left,
+.ticket-right {
+  width: 45px;
+  background: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.barcode {
+  width: 20px;
+  height: 160px;
+  background: repeating-linear-gradient(
+    to bottom,
+    #000 0px,
+    #000 3px,
+    transparent 3px,
+    transparent 6px
+  );
+}
+
+.barcode-text {
+  margin-top: 10px;
+  font-size: 10px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+/* Main ticket body */
+
+.ticket-main {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header */
+
+.ticket-header h1 {
+  margin: 0;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+
+/* Avatar */
+
+.ticket-avatar {
+  margin: 15px 0;
+}
+
+.ticket-avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #000;
+}
+
+/* Info */
+
+.ticket-info {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.ticket-info .artist {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.ticket-info .date,
+.ticket-info .time {
+  font-size: 12px;
+}
+
+.ticket-name {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+/* Seating */
+
+.ticket-seating {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.seat-box {
+  border: 1px dashed #000;
+  padding: 8px 12px;
+  width: 80px;
+}
+
+.seat-box .label {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.seat-box .value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Price */
+
+.ticket-price {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
