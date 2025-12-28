@@ -53,9 +53,9 @@ project-root/
 
 ## ⚙️ Future Improvements
 
-**Adding responsiveness:** the project is in need of responsiveness so it can work both on wider screens and mobile devices.
-**Printable Ticket:** a printable ticket function will be added in the future.
-**Unique Seat and Row:** using JS, I will add a function that allows the user to generate a unique seat and row that is going to be shown in the final ticket.
+- **Adding responsiveness:** the project is in need of responsiveness so it can work both on wider screens and mobile devices.
+- **Printable Ticket:** a printable ticket function will be added in the future.
+- **Unique Seat and Row:** using JS, I will add a function that allows the user to generate a unique seat and row that is going to be shown in the final ticket.
 
 ---
 
